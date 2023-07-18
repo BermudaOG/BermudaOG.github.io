@@ -1,5 +1,8 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <title>Jose's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             background-color: #141414;
@@ -15,11 +18,10 @@
             margin-top: 20px;
         }
         
-        .link-container a {
-            display: block;
-            font-weight: bold;
-            color: blue;
-            text-decoration: none;
+        .card {
+            background-color: #333333;
+            color: #ffffff;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -28,14 +30,41 @@
     <img src="./Biopic.jpg"/>
     
     <div class="link-container">
-        <p1>Eyes following the mouse</p1>
-        <a href="https://bermudaog.github.io/eyes/">Eyes Exercise</a>
-        <p1>Pacman animating using 4 pictures</p1>
-        <a href="https://bermudaog.github.io/pacman/"> Pacman Exercise </a>
-        <p1>Simple pacman spawning game where you can spwan as many as you want and increase speed by hitting play</p1>
-        <a href="https://bermudaog.github.io/Pacmen/"> Pacmen Exercise </a>
-        <p1>NYC bus stop tracker using a click of a button</p1>
-        <a href="https://bermudaog.github.io/BusStopTracker/"> Bus Stop Tracker Exercise </a>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Eyes Exercise</h5>
+                <p class="card-text">Eyes following the mouse</p>
+                <a href="https://bermudaog.github.io/eyes/" class="card-link">Go to Exercise</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Pacman Exercise</h5>
+                <p class="card-text">Pacman animating using 4 pictures</p>
+                <a href="https://bermudaog.github.io/pacman/" class="card-link">Go to Exercise</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Pacmen Exercise</h5>
+                <p class="card-text">Simple pacman spawning game where you can spawn as many as you want and increase speed by hitting play</p>
+                <a href="https://bermudaog.github.io/Pacmen/" class="card-link">Go to Exercise</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Bus Stop Tracker Exercise</h5>
+                <p class="card-text">NYC bus stop tracker using a click of a button</p>
+                <a href="https://bermudaog.github.io/BusStopTracker/" class="card-link">Go to Exercise</a>
+            </div>
+        </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
