@@ -2,33 +2,24 @@
 <html>
 <head>
     <title>Jose's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #141414;
-            color: #ffffff;
-        }
-        
-        img {
-            width: 200px;
-            height: auto;
-        }
-        
-        .link-container {
-            margin-top: 20px;
-        }
-        
-        .card {
-            background-color: #333333;
-            color: #ffffff;
-            margin-bottom: 10px;
-        }
-    </style>
 </head>
 <body>
-    <h1>Jose's Portfolio</h1>
-    <img src="./Biopic.jpg"/>
-    
+    <div class="jumbotron">
+        <h1 class="display-4">Jose's Portfolio</h1>
+        <div class="container">
+            <img src="./Biopic.jpg" class="img-fluid" alt="Jose's Picture">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gNY1yUhN0Ao" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <hr class="my-4">
+        <p class="lead">My name is Jose Torres, I have recently started learning the skills to be a full stack developer. I am currently focusing on JavaScript, HTML, and CSS. This page showcases my projects and progress. I hope you enjoy!</p>
+        <p>Connect with me:</p>
+        <p>Email: Torrj755@gmail.com</p>
+        <a href="https://www.linkedin.com/in/bermudaog/" target="_blank">LinkedIn</a>
+        <a href="https://bermudaog.github.io/" target="_blank">GitHub</a>
+    </div>
+
     <div class="link-container">
         <div class="card">
             <div class="card-body">
@@ -62,7 +53,7 @@
             </div>
         </div>
     </div>
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
