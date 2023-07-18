@@ -1,0 +1,61 @@
+body {
+    background-color: #141414 !important;
+    color: #9d20ad;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #141414 #141414;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #9d20ad;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.jumbotron {
+    background-color: #333333 !important;
+    color: #9d20ad;
+    padding: 2rem;
+}
+
+.jumbotron a {
+    color: #26d43d;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.jumbotron a:hover {
+    text-decoration: underline;
+}
+
+.link-container {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #333333 !important;
+    color: #9d20ad;
+    margin-bottom: 10px;
+}
+
+.card-link {
+    color: #26d43d;
+}
+
+.scroll-content {
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
