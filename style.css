@@ -36,12 +36,13 @@ img {
     text-decoration: underline;
 }
 
-.jumbotron-with-background {
+.jumbotron {
     background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp');
     background-size: cover;
+    background-color: #333333;
     color: #9d20ad;
+    padding: 2rem;
 }
-
 
 .jumbotron a {
     color: #26d43d !important;
