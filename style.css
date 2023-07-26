@@ -36,6 +36,25 @@ img {
     text-decoration: underline;
 }
 
+.jumbotron-with-background {
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp');
+    background-size: cover;
+    color: #fdfdfd; 
+}
+
+.jumbotron a {
+    color: #26d43d !important;
+}
+
+.jumbotron,
+.jumbotron .card,
+.jumbotron .card-body,
+.jumbotron p:not(.lead),
+.jumbotron p:not(.lead) a {
+    color: #9d20ad;
+}
+
+
 .link-container {
     margin-top: 20px;
 }
