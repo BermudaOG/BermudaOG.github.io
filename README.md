@@ -13,3 +13,6 @@
 <a href="https://bermudaog.github.io/Styled-To-Do-list/"> Styled To-Do list </a>
 ## ATM Project
 <a href="https://bermudaog.github.io/atm-project/"> ATM Project </a>
+## Fetch and Render Project
+<a href="https://bermudaog.github.io/fetch-n-render-project/"> Fetch and Render Project </a>
+
