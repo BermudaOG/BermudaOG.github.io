@@ -15,3 +15,5 @@
 <a href="https://bermudaog.github.io/atm-project/"> ATM Project </a>
 ## <a href="https://github.com/BermudaOG/fetch-n-render-project"> Fetch and Render Repo </a>
 <a href="https://bermudaog.github.io/fetch-n-render-project/"> Fetch and Render Project </a>
+## <a href="https://github.com/BermudaOG/tic-tac-toe"> Tic-Tac-Toe Repo </a>
+<a href="https://bermudaog.github.io/tic-tac-toe/"> Tic-Tac-Toe Project </a>
